@@ -1,0 +1,294 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: oswald;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #fc0606;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fef9f9;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #fa0606;
+}
+
+/* Main Section */
+.main {
+    background: url('img/x.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 20px;
+}
+
+.main h1 {
+    font-size: 100px;
+    color: red;
+}
+
+.main p {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.main .x {
+    text-decoration: none;
+    background: rgb(55, 0, 255);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 0;
+    font-size: 20px;
+}
+
+.main .x:hover {
+    background: #ff4500;
+}
+
+/* Wellness section */
+
+.wellness{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 700px;
+}
+
+.wellness .wellness-image{
+  width: 33%;
+  margin: 100px;
+  height: 70%;
+}
+
+.wellness .wellness-text{
+  margin: 100px;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.wellness .wellness-text h2 a{
+  font-size:40px;
+  text-decoration: none;
+  color: rgb(55, 0, 255);
+  position: relative;
+}
+
+.wellness .wellness-text h2 a:before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.wellness .wellness-text h2 a:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.wellness .wellness-text .wellness-button {
+    text-decoration: none;
+    background: #fc0606;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 0;
+    font-size: 20px;
+ 
+}
+
+.wellness .wellness-text .wellness-button {
+  box-shadow: inset 400px 0 0 0 rgb(55, 0, 255);
+}
+
+.fitness{
+  background: url('img/workout.jpg') no-repeat center center/cover;
+  height: 900px;
+}
+
+.fitness .fitness-heading{
+  font-size: 70px;
+  padding:50px;
+  padding-bottom:30px;
+  color: white;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.fitness .fitness-heading a{
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.fitness .fitness-heading a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.fitness .fitness-heading a:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.fitness .fitness-cards{
+  display:flex;
+  margin: 20px;
+  padding: 20px;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.fitness .fitness-cards .first-card{
+  border: 1px solid;
+  margin: 10px;
+  width: 33%;
+  background-color:rgb(55, 0, 255);
+  box-shadow: inset 0 0 0 0 rgba(182, 177, 177, 0.418);
+  -webkit-transition: ease-in 0.4s;
+  -moz-transition: ease-in 0.4s;
+  transition: ease-in 0.4s;
+}
+
+.fitness .fitness-cards .first-card:hover{
+  box-shadow: inset 400px 0 0 0 rgba(182, 177, 177, 0.418);
+}
+
+.fitness .fitness-cards .first-card .first-head{
+  text-align: center;
+  margin: 10px;
+  font-size: 40px;
+}
+
+.fitness .fitness-cards .first-card p{
+  margin: 30px;
+  font-size: 20px;
+}
+
+.fitness .fitness-cards .second-card{
+  border: 1px solid;
+  margin: 10px;
+  width: 33%;
+  background-color:rgb(55, 0, 255);
+}
+
+.fitness .fitness-cards .second-card .second-head{
+  text-align: center;
+  margin: 10px;
+  font-size: 40px;
+}
+
+.fitness .fitness-cards .second-card p{
+  margin: 30px;
+  font-size: 20px;
+}
+
+.fitness .fitness-cards .third-card{
+  border: 1px solid;
+  margin: 10px;
+  width: 33%;
+  background-color:rgb(55, 0, 255);
+}
+
+.fitness .fitness-cards .third-card .third-head{
+  text-align: center;
+  margin: 10px;
+  font-size: 40px;
+}
+
+.fitness .fitness-cards .third-card p{
+  margin: 30px;
+  font-size: 20px;
+}
+
+
+.Foot {
+  background: #333;
+  color: #fff;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.Foot .social-links {
+  list-style: none;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.Foot .social-links li {
+  margin: 0 5px;
+}
+
+.Foot  a {
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+.Foot  a:hover {
+  color: #ff7f50;
+}
+.Foot ul{
+ margin-bottom: 0%; 
+list-style: none;
+}
+
+.Foot li {
+  padding-bottom: 15px;
+  background-color: #333;
+  display: inline-flex;
+  padding-right: 10px;
+}
+
+.Foot p {
+  padding: 15px;
+}

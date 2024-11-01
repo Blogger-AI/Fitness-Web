@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header div {
+    font-size: 50px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* Nutrition Guide Section */
+.nutrition {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.nutrition h1 {
+    color: rgb(55, 0, 255);
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.nutrition-section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.nutrition-section img{
+    width: 100%;
+    height: 500px;
+}
+
+.nutrition-section .img3{
+    width: 100%;
+    height: 600px;
+}    
+
+.nutrition-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: rgb(55, 0, 255);
+}
+
+.nutrition-section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.nutrition-section ul,
+.nutrition-section ol {
+    padding-left: 20px;
+}
+
+.nutrition-section li {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333;
+}
+
+
+/* Recipe Section */
+.recipe {
+    margin-top: 20px;
+}
+
+.recipe h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(55, 0, 255);
+}
+
+.recipe p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #35424a;
+    font-weight: bold;
+}
+
+.Foot {
+    background: #333;
+    color: #fff;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .Foot .social-links {
+    list-style: none;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Foot .social-links li {
+    margin: 0 5px;
+  }
+  
+  .Foot  a {
+    color: #fff;
+    text-decoration: none;
+    
+  }
+  
+  .Foot  a:hover {
+    color: #ff7f50;
+  }
+  .Foot ul{
+   margin-bottom: 0%; 
+  list-style: none;
+  }
+  
+  .Foot li {
+    padding-bottom: 15px;
+    background-color: #333;
+    display: inline-flex;
+    padding-right: 10px;
+  }
+  
+  .Foot p {
+    padding: 15px;
+  }
